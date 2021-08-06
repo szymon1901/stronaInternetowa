@@ -1,0 +1,422 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 62.5%;
+}
+nav {
+	background-image: url("../img/9e18ff_86f1a5676f6d4104b3197533c2891406_mv2_d_5230_3484_s_4_2.webp");
+	background-size: cover;
+	background-position: top;
+}
+
+.navbar-nav {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+nav a {
+	color: red;
+}
+
+nav a:hover {
+	color: gold;
+}
+nav .navbar {
+	position: sticky;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: gold;
+}
+
+header {
+	position: relative;
+	background-image: url("../img/9e18ff_86f1a5676f6d4104b3197533c2891406_mv2_d_5230_3484_s_4_2.webp");
+	background-position: center;
+	background-size: cover;
+	height: 85vh;
+	background-attachment: fixed;
+	object-position: center;
+}
+
+.black-background-one {
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+	margin-bottom: 1vh;
+}
+.black-background-two {
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+	margin-bottom: 1vh;
+}
+
+.black-background-three {
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+}
+
+.parent-pictrue {
+	position: relative;
+}
+.child-pictrue {
+	position: absolute;
+	z-index: 10;
+}
+
+.header-front-pictrue {
+	width: 800px;
+	max-height: 500px;
+	margin-top: 150px;
+	height: auto;
+	z-index: 3;
+	box-shadow: green -22px 22px;
+}
+
+.zion-adventure-photog {
+	position: absolute;
+	top: 25%;
+	left: 60%;
+	padding-top: 7%;
+}
+
+.child-text {
+	position: absolute;
+	top: 55%;
+	left: 62%;
+	font-size: 1.5vh;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+header .btn {
+	position: absolute;
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	font-size: 1vh;
+	width: 80px;
+	top: 75%;
+	left: 62%;
+	border-radius: 0px;
+}
+
+.btn:hover {
+	color: white;
+	background-color: gray;
+	cursor: pointer;
+	border: none;
+}
+
+/*
+SEKCJA 1
+*/
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.first-secton-title {
+	padding-top: 65px;
+	padding-left: 60px;
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 10px;
+}
+
+.first-secton-title .yellow-underline {
+	margin-top: -20px;
+	text-decoration: underline gold;
+	text-decoration-thickness: 14px;
+}
+
+.pictrue {
+	margin-top: 10%;
+}
+
+.text {
+	position: relative;
+	background-color: green;
+	color: white;
+	top: -5%;
+	left: 23%;
+	width: 55%;
+	height: 10vh;
+	text-align: center;
+	display: inline-block;
+}
+.main-word {
+	position: relative;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+.viev-gallery {
+	font-size: 0.85rem;
+	text-transform: uppercase;
+}
+
+.button {
+	position: relative;
+	border: 3px solid green;
+	color: green;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 8px;
+	width: 190px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 0px;
+}
+
+.button:hover {
+	background-color: gold;
+	color: white;
+	border: 3px solid gold;
+}
+.step1 {
+	position: relative;
+	color: black;
+	font-size: 1rem;
+}
+
+.background-image-second-section {
+	background-image: url("../img/9e18ff_86f1a5676f6d4104b3197533c2891406_mv2_d_5230_3484_s_4_2.webp");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: auto;
+	padding-bottom: 20vh;
+}
+
+.front-pictrue {
+	padding-top: 10%;
+	padding-left: 10%;
+}
+
+.box-shadow {
+	box-shadow: gold -5px 5px, gold -10px 10px, gold -15px 15px, gold -20px 20px,
+		gold -25px 25px;
+}
+
+.hey-outdor {
+	padding-top: 8%;
+}
+
+.text-section2 {
+	font-size: 1rem;
+	margin-left: 10px;
+}
+
+.font {
+	font-family: lulo-clean-w01-one-bold, sans-serif;
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+}
+
+.take-me-to-the-blog-button {
+	color: white;
+	text-transform: uppercase;
+	border: 0;
+	padding: 10px 25px;
+	border-radius: 0px;
+	background-color: gold;
+}
+
+.icons {
+	margin-top: 5%;
+	cursor: pointer;
+}
+
+.pic-text-position {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 20vh;
+}
+
+.follow-me {
+	position: relative;
+	font-size: 6vh;
+	top: 15vh;
+	color: gold;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.on-instagram-button .btn {
+	margin: 0;
+	font-size: 1rem;
+	color: white;
+	border: 0;
+	background-color: green;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.on-instagram-button .btn span {
+	font-size: 1.8rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.row-pictrues {
+	cursor: pointer;
+	margin-top: 18vh;
+}
+
+.pictrue-text {
+	position: relative;
+	background-size: cover;
+}
+
+.description {
+	position: absolute;
+	top: 10%;
+	left: 0%;
+	opacity: 0;
+	visibility: hidden;
+	font-size: 1.9vh;
+	text-align: center;
+	background-color: rgba(96, 96, 96, 0.6);
+	color: white;
+}
+
+.pictrue-text:hover .description {
+	visibility: visible;
+	opacity: 1;
+}
+
+.under-word {
+	position: absolute;
+	visibility: hidden;
+	z-index: 6;
+	padding-left: 8px;
+}
+.portfolio-word:hover .under-word {
+	visibility: visible;
+	opacity: 1;
+}
+.under-word-color:hover {
+	color: gold;
+	cursor: pointer;
+}
+
+.down-menu {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3.5px;
+}
+
+.down-word {
+	transition: color 0.5s;
+}
+.down-word:hover {
+	color: gold;
+	cursor: pointer;
+}
+
+.yellow-word {
+	color: gold;
+}
+
+footer {
+	margin-top: -25px;
+	background-color: rgb(253, 242, 242);
+	height: 55vh;
+}
+
+.icons-size {
+	transform: scale(0.8);
+	padding: 5px 0px;
+}
+.icons-size:hover {
+	cursor: pointer;
+}
+
+.footer-text {
+	font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+	.child-text {
+		font-size: 3vh;
+	}
+	.zion-adventure-photog {
+		padding-top: 0%;
+	}
+
+	header .btn {
+		margin-top: 5%;
+		font-size: 2vh;
+		width: 130px;
+	}
+	header {
+		height: 110vh;
+	}
+
+	.text {
+		top: -6vh;
+		left: 18%;
+		width: 65%;
+		height: 16%;
+	}
+	.black-background-one {
+		font-size: 2.9vh;
+	}
+
+	.on-instagram-button .btn span {
+		font-size: 2rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 10px;
+	}
+}
+
+@media (min-width: 991px) {
+	.child-text {
+		font-size: 2.5vh;
+	}
+
+	.black-background-one {
+		font-size: 2.5vh;
+	}
+
+	header .btn {
+		margin-top: 0%;
+		font-size: 1.8vh;
+		width: 150px;
+	}
+	.description {
+		font-size: 0.8rem;
+	}
+	.text {
+		top: -10%;
+		left: 26%;
+		width: 49%;
+		height: 13%;
+	}
+}
+
+@media (min-width: 600px) {
+	.header-front-pictrue {
+		box-shadow: green -35px 35px;
+	}
+}
